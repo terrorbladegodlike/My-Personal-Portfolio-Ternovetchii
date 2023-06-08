@@ -23,11 +23,25 @@
    font-size: 1.5rem;
    color: var(--title-color);
    font-weight: var(--font-bold);
+   padding: 5px;
+   border-radius: 50%;
+   border: 1px solid transparent;
+   background: #fff;
+   transition: .3s;
+}
+
+.nav__link:hover{
+   /* color: hsl(43, 100%, 68%);  */
+   color: #000;
+   border: 1px solid #000;
+   background: #000;
+   color: #fff;
+   border-radius: 50%;
 }
 
 .copyright{
    color: hsl(245, 15%, 65%);
    font-size: var(--small-font-size);
    transform: rotate(-180deg);
-   writing-mode: vertical-rl;
+   writing-mode: vertical-rlf;
 }
